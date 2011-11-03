@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/cm
+# catalog-date 2009-07-03 18:23:26 +0200
+# catalog-license knuth
+# catalog-version undef
 Name:		texlive-cm
 Version:	20090703
 Release:	1
@@ -260,6 +266,7 @@ European Computer Modern and the Latin Modern families.
 %{_texmfdistdir}/fonts/tfm/public/cm/cmvtt10.tfm
 %doc %{_texmfdistdir}/doc/fonts/cm/README
 %doc %{_texmfdistdir}/doc/fonts/cm/README-cmps.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -270,3 +277,5 @@ European Computer Modern and the Latin Modern families.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
