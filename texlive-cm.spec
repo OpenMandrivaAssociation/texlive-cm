@@ -1,12 +1,12 @@
-# revision 15878
+# revision 24956
 # category Package
 # catalog-ctan /fonts/cm
-# catalog-date 2009-07-03 18:23:26 +0200
+# catalog-date 2011-04-10 19:35:44 +0200
 # catalog-license knuth
 # catalog-version undef
 Name:		texlive-cm
-Version:	20090703
-Release:	2
+Version:	20110410
+Release:	1
 Summary:	Computer Modern fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm
@@ -24,7 +24,7 @@ Modern-style font from Monotype. The family is comprehensive,
 offering both sans and roman styles, and a monospaced font,
 together with mathematics fonts closely integrated with the
 mathematical facilities of TeX itself. The base fonts are
-distributed as MetaFont source, but autotraced PostScript Type
+distributed as Metafont source, but autotraced PostScript Type
 1 versions are available (one version in the AMS fonts
 distribution, and also the BaKoMa distribution). The Computer
 Modern fonts have inspired many later families, notably the
@@ -41,6 +41,7 @@ European Computer Modern and the Latin Modern families.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/fonts/map/dvips/cm/cmtext-bsr-interpolated.map
+%{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/black.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk
@@ -55,7 +56,7 @@ European Computer Modern and the Latin Modern families.
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk
-%{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi720/cmbx12.pk
+%{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/gray.pk
 %{_texmfdistdir}/fonts/source/public/cm/accent.mf
 %{_texmfdistdir}/fonts/source/public/cm/bigacc.mf
 %{_texmfdistdir}/fonts/source/public/cm/bigdel.mf
