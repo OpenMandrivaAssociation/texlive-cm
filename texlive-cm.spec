@@ -268,3 +268,22 @@ European Computer Modern and the Latin Modern families.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110410-1
++ Revision: 758836
+- Update to latest upstream release
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090703-2
++ Revision: 750256
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090703-1
++ Revision: 718073
+- texlive-cm
+- texlive-cm
+- texlive-cm
+- texlive-cm
+- texlive-cm
+
