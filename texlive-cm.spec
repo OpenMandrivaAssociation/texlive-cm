@@ -1,11 +1,11 @@
-# revision 24956
+# revision 29581
 # category Package
 # catalog-ctan /fonts/cm
-# catalog-date 2011-04-10 19:35:44 +0200
+# catalog-date 2012-06-26 21:09:43 +0200
 # catalog-license knuth
 # catalog-version undef
 Name:		texlive-cm
-Version:	20110410
+Version:	20120626
 Release:	1
 Summary:	Computer Modern fonts
 Group:		Publishing
@@ -268,22 +268,3 @@ European Computer Modern and the Latin Modern families.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110410-1
-+ Revision: 758836
-- Update to latest upstream release
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090703-2
-+ Revision: 750256
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090703-1
-+ Revision: 718073
-- texlive-cm
-- texlive-cm
-- texlive-cm
-- texlive-cm
-- texlive-cm
-
