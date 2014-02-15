@@ -1,4 +1,4 @@
-# revision 29581
+# revision 32865
 # category Package
 # catalog-ctan /fonts/cm
 # catalog-date 2012-06-26 21:09:43 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-cm
 Version:	20120626
-Release:	5
+Release:	6
 Summary:	Computer Modern fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm
@@ -41,7 +41,6 @@ European Computer Modern and the Latin Modern families.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/fonts/map/dvips/cm/cmtext-bsr-interpolated.map
-%{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/black.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk
@@ -56,7 +55,6 @@ European Computer Modern and the Latin Modern families.
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk
 %{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk
-%{_texmfdistdir}/fonts/pk/ljfour/public/cm/dpi600/gray.pk
 %{_texmfdistdir}/fonts/source/public/cm/accent.mf
 %{_texmfdistdir}/fonts/source/public/cm/bigacc.mf
 %{_texmfdistdir}/fonts/source/public/cm/bigdel.mf
