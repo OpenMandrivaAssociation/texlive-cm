@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-cm
 Version:	20120626
-Release:	7
+Release:	8
 Summary:	Computer Modern fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm
