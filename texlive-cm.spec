@@ -1,5 +1,5 @@
 Name:		texlive-cm
-Version:	20171115
+Version:	20180303
 Release:	1
 Summary:	Computer Modern fonts
 Group:		Publishing
