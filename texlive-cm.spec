@@ -1,6 +1,6 @@
 Name:		texlive-cm
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Computer Modern fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm
