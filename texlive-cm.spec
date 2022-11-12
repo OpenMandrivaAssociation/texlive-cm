@@ -1,12 +1,12 @@
 Name:		texlive-cm
-Version:	20190228
+Version:	57963
 Release:	1
 Summary:	Computer Modern fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm
 License:	KNUTH
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.r57963.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.doc.r57963.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +25,12 @@ Modern fonts have inspired many later families, notably the
 European Computer Modern and the Latin Modern families.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -42,7 +42,7 @@ European Computer Modern and the Latin Modern families.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
