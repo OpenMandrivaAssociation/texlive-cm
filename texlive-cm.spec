@@ -5,8 +5,8 @@ Summary:	Computer Modern fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm
 License:	KNUTH
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.r57963.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.doc.r57963.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
