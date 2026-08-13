@@ -12,7 +12,8 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.r%{tl_revisio
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/cm.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 Knuth's final iteration of his re-interpretation of a c.19 Modern-style
@@ -25,3 +26,10 @@ distribution, and also the BaKoMa distribution). The Computer Modern
 fonts have inspired many later families, notably the European Computer
 Modern and the Latin Modern families.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from cm:
+MixedMap cmtext-bsr-interpolated.map
+TL_DROPIN_EOF
